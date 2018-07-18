@@ -1,0 +1,19 @@
+<html>
+<head>
+
+<script>
+    function addNumbers(firstNumber, secondNumber){
+        var returnValue = "return value is ";
+        function add(){
+            return returnValue + (firstNumber + secondNumber);
+        }
+        return add;
+    }
+    var result = addNumbers(10, 20)();
+    document.write(result);
+
+</script>
+
+</body>
+</html>
+

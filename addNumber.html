@@ -1,0 +1,23 @@
+<html>
+<head>
+</head>
+
+<body>
+    
+
+    <script>
+       var factorial = function multiplication(number){
+           if(number<=1){
+               return 1;
+           }
+        
+               return number * multiplication(number - 1);
+       }
+
+       var result = factorial(4);
+       document.write(result);
+ 
+    </script>
+</body>
+</html>
+
